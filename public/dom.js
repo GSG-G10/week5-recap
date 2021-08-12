@@ -5,9 +5,7 @@ const temp = document.getElementById('temp');
 const weatherStatus = document.getElementById('weather-status');
 const windSpeed = document.getElementById('wind-speed');
 const humidity = document.getElementById('humidity');
-const badInput = document.getElementById('bad-input');
 const fetchWeather = (weatherData) => {
-  console.log(weatherData);
   countryName.innerText = (`Country Name: ${weatherData.name}`);
   temp.innerText = `Temperature ${weatherData.main.temp}C°`;
   weatherStatus.innerText = (`Weather Status: ${weatherData.weather[0].description}`);

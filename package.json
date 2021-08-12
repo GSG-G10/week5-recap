@@ -1,0 +1,23 @@
+{
+  "name": "week5-recap",
+  "version": "1.0.0",
+  "description": "Week-5 (Express) Recap",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSG-G10/week5-recap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSG-G10/week5-recap/issues"
+  },
+  "homepage": "https://github.com/GSG-G10/week5-recap#readme"
+}
